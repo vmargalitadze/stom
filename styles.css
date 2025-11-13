@@ -540,7 +540,7 @@ align-items: start;
 /* Testimonials Section */
 .testimonials-section {
     padding: 60px 0;
-    background-color: #8B262B;
+    background: linear-gradient(#8C3E3E, #712D2D);
 }
 
 .testimonials-container {
