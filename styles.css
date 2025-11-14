@@ -687,303 +687,7 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
-  .header {
-    flex-direction: column;
-    padding: 20px;
-  }
 
-  .nav {
-    margin-top: 20px;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .hero {
-    margin: 20px;
-    flex-direction: column;
-  }
-
-  .hero-content {
-    padding: 30px;
-    flex-direction: column;
-  }
-
-  .hero-text {
-    margin-right: 0;
-    margin-bottom: 30px;
-    padding: 30px;
-  }
-
-  .hero-title {
-    font-size: 28px;
-  }
-
-  .hero-subtitle {
-    font-size: 22px;
-  }
-
-  .doctor-image {
-    width: 250px;
-    height: 300px;
-  }
-
-  .features-content {
-    flex-direction: column;
-    gap: 40px;
-  }
-
-  .features-title {
-    font-size: 36px;
-  }
-
-  .small-cards {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .small-card {
-    padding: 25px 20px;
-  }
-
-  .large-card {
-    padding: 30px 25px;
-  }
-
-  .features-header {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-
-  .features-main-title {
-    grid-column: 1;
-    font-size: 32px;
-  }
-
-  .features-intro {
-    grid-column: 1;
-  }
-
-  .feature-box.top-right {
-    grid-column: 1;
-    grid-row: auto;
-  }
-
-  .features-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .feature-box {
-    min-height: auto;
-  }
-
-  .microscope-content {
-    flex-direction: column;
-  }
-
-  .microscope-text {
-    padding: 40px 30px;
-  }
-
-  .microscope-title {
-    font-size: 32px;
-    margin-bottom: 20px;
-  }
-
-  .microscope-description {
-    font-size: 14px;
-    margin-bottom: 30px;
-  }
-
-  .microscope-image {
-    padding: 30px;
-  }
-
-  .microscope-image img {
-    height: 300px;
-  }
-
-  .services-content {
-    flex-direction: column;
-    gap: 30px;
-  }
-
-  .services-title {
-    font-size: 32px;
-    white-space: normal;
-  }
-
-  .services-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-  }
-
-  .service-tag {
-    padding: 15px 20px;
-    font-size: 14px;
-  }
-
-  .specialists-header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-  }
-
-  .specialists-title {
-    font-size: 32px;
-  }
-
-  .carousel-wrapper {
-    gap: 20px;
-  }
-
-  .doctor-card {
-    flex: 0 0 85%;
-  }
-
-  .doctor-image {
-    height: 350px;
-  }
-
-  .doctor-name {
-    font-size: 16px;
-    padding: 15px;
-  }
-
-  .testimonials-section {
-    padding: 40px 0;
-  }
-
-  .testimonials-content {
-    flex-direction: column;
-    gap: 30px;
-  }
-
-  .testimonials-info {
-    flex: 1;
-    width: 100%;
-  }
-
-  .testimonials-title {
-    font-size: 28px;
-    margin-bottom: 15px;
-  }
-
-  .testimonials-intro {
-    font-size: 14px;
-    margin-bottom: 20px;
-  }
-
-  .rating-section {
-    gap: 10px;
-  }
-
-  .rating-number {
-    font-size: 40px;
-  }
-
-  .star {
-    font-size: 18px;
-  }
-
-  .testimonials-carousel-section {
-    width: 100%;
-  }
-
-  .testimonials-carousel-container {
-    width: 100%;
-  }
-
-  .testimonials-nav {
-    justify-content: flex-start;
-    margin-bottom: 15px;
-  }
-
-  .testimonials-btn {
-    width: 45px;
-    height: 45px;
-  }
-
-  .testimonials-carousel-wrapper {
-    gap: 15px;
-    width: 100%;
-  }
-
-  .testimonial-card {
-    flex: 0 0 100%;
-    padding: 20px;
-    min-width: 0;
-    width: 100%;
-  }
-
-  .testimonial-date {
-    font-size: 12px;
-  }
-
-  .testimonial-author {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-
-  .testimonial-text {
-    font-size: 13px;
-    line-height: 1.5;
-  }
-
-  .contact-content {
-    flex-direction: column;
-    gap: 30px;
-  }
-
-  .contact-map {
-    order: 2;
-  }
-
-  .contact-info {
-    max-width: 100%;
-    order: 1;
-  }
-
-  .contact-title {
-    font-size: 28px;
-  }
-
-  .contact-intro {
-    margin-bottom: 20px;
-  }
-
-  .contact-info .intro-text {
-    font-size: 14px;
-  }
-
-  .contact-details-grid {
-    grid-template-columns: 1fr;
-    gap: 15px;
-  }
-
-  .contact-detail {
-    padding: 20px;
-  }
-
-  .footer {
-    padding: 40px 0 20px;
-  }
-
-  .footer-content {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-
-  .footer-column {
-    gap: 15px;
-  }
-
-  .footer-logo {
-    width: 60px;
-    height: 60px;
-  }
-}
 
 /* Contact Section */
 .contact-section {
@@ -1353,4 +1057,410 @@ body {
   
    
 }
+.testimonials-title {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #faf3f3;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.testimonials-intro {
+    font-family: "open sans", sans-serif;
+    font-size: 16px;
+    color: #faf3f3;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.testimonials-container {
+    padding-left: 30px;
+}
+
+.rating-number {
+    font-family: "sans-serif", sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    color: #faf3f3;
+}
+
+.star {
+    font-size: 30px;
+    color: #c9a857;
+}
+
+.testimonial-author {
+    font-family: "open sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: semibold;
+    color: #2c1810;
+    margin-bottom: 15px;
+}
+
+.testimonial-text {
+    font-family: "ოpen sans", sans-serif;
+    font-size: 16px;
+    color: #240f0f;
+}
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 700px !important;
+    padding: 0 15px;
+  }
+
+  .header {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .header-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .logo {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .nav {
+    margin-top: 15px;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 14px;
+  }
+
+  .nav li a {
+    font-size: 14px;
+  }
+
+  /* Hero Section */
+  .hero-content {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 20px 0 20px;
+    margin: 0 auto;
+  }
+
+  .hero-text {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 25px;
+    margin-bottom: 20px;
+  }
+
+  .hero-title {
+    font-size: 24px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .cta-button {
+    font-size: 16px;
+    padding: 12px 25px;
+  }
+
+  .hero-image {
+    width: 100%;
+    padding: 0;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .doctor-image {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 0 8px 8px;
+  }
+
+  /* Features Section */
+  .features-section {
+    margin-top: 50px;
+  }
+
+  .features-header {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+
+  .features-main-title {
+    font-size: 28px;
+    width: 100%;
+    grid-column: 1;
+    grid-row: 1;
+    margin-bottom: 15px;
+  }
+
+  .features-intro {
+    grid-column: 1;
+    grid-row: 2;
+    max-width: 100%;
+  }
+
+  .feature-box.top-right {
+    grid-column: 1;
+    grid-row: 3;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .feature-box {
+    width: 100%;
+    max-width: 100%;
+    min-height: auto;
+    padding: 25px;
+  }
+
+  .box-title {
+    font-size: 18px;
+  }
+
+  .box-description {
+    font-size: 16px;
+  }
+
+  /* Microscope Section */
+  .microscope-section {
+    margin-top: 50px;
+  }
+
+  .microscope-content {
+    flex-direction: column;
+  }
+
+  .microscope-text {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 25px;
+  }
+
+  .microscope-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .microscope-description {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+
+  .microscope-button {
+    font-size: 16px;
+    padding: 12px 25px;
+    align-self: flex-start;
+  }
+
+  .microscope-image {
+    padding: 20px;
+  }
+
+  .microscope-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  /* Services Section */
+  .services-section {
+    margin-top: 50px;
+  }
+
+  .services-content {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .services-title {
+    font-size: 28px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .service-tag {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+
+  /* Specialists Section */
+  .specialists-section {
+    margin-top: 50px;
+  }
+
+  .specialists-title {
+    font-size: 28px;
+  }
+
+  .specialists-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .carousel-nav {
+    align-self: flex-end;
+  }
+
+  .doctor-card {
+    flex: 0 0 calc(50% - 10px);
+    min-width: calc(50% - 10px);
+  }
+
+  .doctor-image {
+    height: 300px;
+  }
+
+  .doctor-name {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  /* Testimonials Section */
+  .testimonials-section {
+    margin-top: 50px;
+    padding: 25px 0;
+  }
+
+  .testimonials-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .testimonials-content {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .testimonials-info {
+    flex: 1;
+    max-width: 100%;
+  }
+
+  .testimonials-title {
+    font-size: 28px;
+  }
+
+  .testimonials-intro {
+    font-size: 16px;
+  }
+
+  .rating-section {
+    margin-bottom: 20px;
+  }
+
+  .rating-number {
+    font-size: 48px;
+  }
+
+  .star {
+    font-size: 28px;
+  }
+
+  .testimonials-nav {
+    margin-right: 0;
+    justify-content: flex-start;
+  }
+
+  .testimonial-card {
+    flex: 0 0 calc(100% - 20px);
+    min-width: calc(100% - 20px);
+  }
+
+  .testimonial-author {
+    font-size: 20px;
+  }
+
+  .testimonial-text {
+    font-size: 16px;
+  }
+
+  /* Contact Section */
+  .contact-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .contact-map {
+    width: 100%;
+  }
+
+  .contact-info {
+    max-width: 100%;
+  }
+
+  .contact-title {
+    font-size: 24px;
+  }
+
+  .contact-details-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .detail-label {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .detail-text {
+    font-size: 16px;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 40px 0 20px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-column:nth-child(2) {
+    flex-direction: column;
+    width: 100%;
+    gap: 25px;
+  }
+
+  .footer-heading {
+    font-size: 18px;
+  }
+
+  .footer-text {
+    font-size: 16px;
+  }
 }
