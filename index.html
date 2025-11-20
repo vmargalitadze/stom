@@ -6,6 +6,7 @@
     <title>Стоматологическая клиника</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
     <!-- Header Section -->
     <header class="header">
@@ -50,7 +51,7 @@
     </section>
 
     <!-- Features Section -->
-    <section class="features-section">
+    <section id="portfolio" class="features-section">
       <div class="container">
         <div class="features-header">
           <h2 class="features-main-title">
@@ -106,7 +107,7 @@
     </section>
 
     <!-- Microscope Section -->
-    <section class="microscope-section">
+    <section id="about" class="microscope-section">
       <div class="container microscope-wrapper">
         <div class="microscope-content">
           <div class="microscope-text">
@@ -134,7 +135,7 @@
     </section>
 
     <!-- Services Section -->
-    <section class="services-section">
+    <section id="services" class="services-section">
       <div class="container">
         <div class="services-content">
           <h2 class="services-title">Услуги нашей<br />клиники:</h2>
@@ -158,7 +159,7 @@
     </section>
 
     <!-- Specialists Section -->
-    <section class="specialists-section">
+    <section id="specialists" class="specialists-section">
       <div class="container">
         <div class="specialists-header">
           <h2 class="specialists-title">Наши специалисты</h2>
@@ -182,13 +183,24 @@
                 Юрьевич
               </h3>
             </div>
+
             <div class="doctor-card">
               <div class="doctor-image-wrapper">
-                <img src="doctors/2.png" alt="Доктор 2" class="doctor-image" />
+                <img src="doctors/6.png" alt="Доктор 6" class="doctor-image" />
               </div>
               <h3 class="doctor-name">
-                Сумбаев Сергей <br />
-                Александрович
+                Осницкая Марина <br />
+                Валерьевна
+              </h3>
+            </div>
+
+            <div class="doctor-card">
+              <div class="doctor-image-wrapper">
+                <img src="doctors/7.png" alt="Доктор 7" class="doctor-image" />
+              </div>
+              <h3 class="doctor-name">
+                Карташов Игорь <br />
+                Владимирович
               </h3>
             </div>
             <div class="doctor-card">
@@ -200,6 +212,16 @@
                 Сергеевна
               </h3>
             </div>
+            <div class="doctor-card">
+              <div class="doctor-image-wrapper">
+                <img src="doctors/2.png" alt="Доктор 2" class="doctor-image" />
+              </div>
+              <h3 class="doctor-name">
+                Сумбаев Сергей <br />
+                Александрович
+              </h3>
+            </div>
+
             <div class="doctor-card">
               <div class="doctor-image-wrapper">
                 <img src="doctors/4.png" alt="Доктор 4" class="doctor-image" />
@@ -218,24 +240,7 @@
                 Булатовна
               </h3>
             </div>
-            <div class="doctor-card">
-              <div class="doctor-image-wrapper">
-                <img src="doctors/6.png" alt="Доктор 6" class="doctor-image" />
-              </div>
-              <h3 class="doctor-name">
-                Осницкая Марина <br />
-                Валерьевна
-              </h3>
-            </div>
-            <div class="doctor-card">
-              <div class="doctor-image-wrapper">
-                <img src="doctors/7.png" alt="Доктор 7" class="doctor-image" />
-              </div>
-              <h3 class="doctor-name">
-                Карташов Игорь <br />
-                Владимирович
-              </h3>
-            </div>
+
             <div class="doctor-card">
               <div class="doctor-image-wrapper">
                 <img src="doctors/8.png" alt="Доктор 8" class="doctor-image" />
@@ -251,7 +256,7 @@
     </section>
 
     <!-- Testimonials Section -->
-    <section class="testimonials-section">
+    <section id="blog" class="testimonials-section">
       <div class="testimonials-container">
         <div class="testimonials-info">
           <h2 class="testimonials-title">Отзывы наших клиентов</h2>
@@ -349,11 +354,17 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="contact-section">
+    <section id="contacts" class="contact-section">
       <div class="container">
         <div class="contact-content">
           <div class="contact-map">
-            <img src="map.png" alt="Map" />
+            <iframe
+              src="https://yandex.com/map-widget/v1/-/CLSjeR7E"
+              width="600"
+              height="400"
+              frameborder="0"
+              allowfullscreen="true"
+            ></iframe>
           </div>
           <div class="contact-info">
             <div class="contact-header">
@@ -430,7 +441,12 @@
               <h3 class="footer-heading">Навигация</h3>
               <ul class="footer-links">
                 <li><a href="#home">Главная</a></li>
-                <li><a href="#portfolio">Примеры <br /> работ</a></li>
+                <li>
+                  <a href="#portfolio"
+                    >Примеры <br />
+                    работ</a
+                  >
+                </li>
                 <li><a href="#services">Услуги</a></li>
                 <li><a href="#about">О клинике</a></li>
                 <li><a href="#specialists">Специалисты</a></li>
