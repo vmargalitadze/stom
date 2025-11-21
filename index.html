@@ -12,14 +12,16 @@
     <header class="header">
       <div class="">
         <div class="header-content">
-          <div class="logo"><img src="logo.png" alt="logo" /></div>
+          <div class="logo">
+            <a href="#home"><img src="logo.png" alt="logo" /></a>
+           </div>
           <nav>
             <ul class="nav">
               <li><a href="#home">Главная</a></li>
               <li><a href="#portfolio">Примеры работ</a></li>
               <li><a href="#services">Услуги</a></li>
               <li><a href="#about">О клинике</a></li>
-              <li><a href="#specialists">Специалисты</a></li>
+              <li><a href="specialists.html">Специалисты</a></li>
               <li><a href="#blog">Блог</a></li>
               <li><a href="#contacts">Контакты</a></li>
             </ul>
@@ -41,7 +43,7 @@
               Мы специализируемся на сложных случаях, хирургии и эстетике,
               основываясь на международных протоколах и авторских методиках.
             </p>
-            <button class="cta-button">Записаться на консультацию</button>
+            <button class="cta-button" id="openModal">Записаться на консультацию</button>
           </div>
           <div class="hero-image">
             <img src="doctor.png" alt="Hero Image" />
@@ -123,7 +125,7 @@
               многократно повысить точность и сохранить больше здоровых тканей
               зуба
             </p>
-            <button class="microscope-button">
+            <button class="microscope-button" id="openModal2">
               Записаться на консультацию
             </button>
           </div>
@@ -449,7 +451,7 @@
                 </li>
                 <li><a href="#services">Услуги</a></li>
                 <li><a href="#about">О клинике</a></li>
-                <li><a href="#specialists">Специалисты</a></li>
+                <li><a href="specialists.html">Специалисты</a></li>
                 <li><a href="#blog">Блог</a></li>
                 <li><a href="#contacts">Контакты</a></li>
               </ul>
@@ -464,6 +466,40 @@
       </div>
     </footer>
 
+    <!-- Modal -->
+    <div id="appointmentModal" class="modal">
+      <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <h2 class="modal-title">Записаться на консультацию</h2>
+        <form id="appointmentForm" class="appointment-form">
+          <div class="form-group">
+            <label for="clientName">Имя</label>
+            <input
+              type="text"
+              id="clientName"
+              name="name"
+              placeholder="Введите ваше имя"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="clientPhone">Телефон</label>
+            <input
+              type="tel"
+              id="clientPhone"
+              name="phone"
+              placeholder="+7 (___) ___-__-__"
+              required
+            />
+          </div>
+          <button type="submit" class="form-submit-button">
+            Отправить заявку
+          </button>
+        </form>
+      </div>
+    </div>
+
     <script src="carousel.js"></script>
+    <script src="modal.js"></script>
   </body>
 </html>
