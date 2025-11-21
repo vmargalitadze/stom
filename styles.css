@@ -2186,12 +2186,12 @@ text-align: start;
 
 .specialists-page-title {
   font-family: "Cormorant Garamond", serif;
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 400;
-  color: #2c1810;
+  color: #240F0F;
   line-height: 1.3;
   margin-bottom: 50px;
-  text-align: center;
+  
 }
 
 .specialists-grid-page {
